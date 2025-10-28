@@ -4,49 +4,85 @@ body {
   background: #f9f9f9;
   color: #333;
 }
+
+/* Header layout with flexible structure */
 header {
   background: #1e1e2f;
   color: white;
   text-align: center;
   padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* Logo styling */
 .logo {
   width: 80px;
+  height: auto;
   margin-bottom: 10px;
+  max-width: 100%;
 }
+
+/* Navigation styling */
+nav {
+  margin-top: 10px;
+}
+
 nav a {
   margin: 0 15px;
   color: #ddd;
   text-decoration: none;
+  font-weight: 500;
 }
+
 nav a:hover {
   color: #fff;
 }
+
+/* Tagline styling */
 .tagline {
   font-style: italic;
   margin-top: 10px;
 }
+
+/* Section spacing */
 section {
   padding: 40px 20px;
   text-align: center;
 }
+
+/* Member grid layout */
 .member-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
+
+/* Member card styling */
 .member-card {
   background: white;
   border-radius: 10px;
   padding: 15px;
   width: 200px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
+
+.member-card:hover {
+  transform: scale(1.05);
+}
+
+/* Member image styling */
 .member-card img {
   width: 100%;
+  height: 200px;
   border-radius: 50%;
+  object-fit: cover;
 }
+
+/* Event card styling */
 .event-card {
   background: #fff;
   padding: 20px;
@@ -54,7 +90,11 @@ section {
   display: inline-block;
   text-align: left;
   max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+/* Footer styling */
 footer {
   background: #1e1e2f;
   color: white;
