@@ -18,10 +18,10 @@ header {
 
 /* Logo styling */
 .logo {
-  width: 0px;
-  height: 0px;
-  max-width: 0.25%;
-  margin-bottom: 1px;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 10px;
   display: block;
 }
 
