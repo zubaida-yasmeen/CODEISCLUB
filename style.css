@@ -18,10 +18,11 @@ header {
 
 /* Logo styling */
 .logo {
-  width: 80px;
+  width: 120px;
   height: auto;
-  margin-bottom: 10px;
   max-width: 100%;
+  margin-bottom: 10px;
+  display: block;
 }
 
 /* Navigation styling */
